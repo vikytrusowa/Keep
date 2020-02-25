@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Keep in touch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/reset.css">
+</head>
+<body>
+<header class="header" id="header">
+    <div class="header__wrap">
+        <div class="header__heading content-row">
+            <a class="header__logo" href="#header">
+                <img src="img/logo.svg" alt="logo" class="content-image">
+            </a>
+            <div class="content-row header__navigation">
+                <ul class="content-row header__menu">
+                    <li class="header__item">
+                        <a class="header__link" href="#about">О нас</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#level">Курсы</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#targeting">Таргет</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#life">Life</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <a href="#" class="header__call">
+                    Позвонить нам
+                </a>
+            </div>
+            <a class="header__burger" href="#">
+                <img src="img/burger.svg" alt="burger" class="content-image">
+            </a>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="header__content">
+
+            <h1 class="header__title">
+                Английский язык для детей
+                <span class="header__title--color">   8</span> занятий от <span
+                    class="header__title--color">4 500 руб.</span>
+            </h1>
+            <ul class="content-row header__list">
+                <li class="header__metro"><img src="img/metro_gray.png" alt="Metro" class="header__icon">Тульская</li>
+                <li class="header__metro"><img src="img/metro.png" alt="Metro" class="header__icon">Митино</li>
+                <li class="header__metro"><img src="img/metro_purple.png" alt="Metro" class="header__icon">Сходненская
+                </li>
+            </ul>
+            <form class="header__form">
+                <div class="content-row header__enter">
+                    <input type="text" placeholder="Ваше имя" class="header__input">
+                    <div class="content-column header__enter--tel">
+                        <label class="header__label">Телефон</label>
+                        <input type="tel" placeholder="8 908 684" class="header__input header__input--tel">
+                    </div>
+                </div>
+                <a class="header__button" href="#">Бесплатный первый урок</a>
+            </form>
+        </div>
+        <div class="header__vector">
+            <img src="img/vektor.svg" alt="vektor" class="content-image">
+        </div>
+        <div class="header__vector--two">
+            <img src="img/vektor2.svg" alt="vektor" class="content-image">
+        </div>
+        <div class="header__vector--three">
+            <img src="img/vektor3.svg" alt="vektor" class="content-image">
+        </div>
+        <div class="header__vector--fo">
+            <img src="img/vektor4.svg" alt="vektor" class="content-image">
+        </div>
+        <div class="header__vector--five">
+            <img src="img/vektor5.svg" alt="vektor" class="content-image">
+        </div>
+    </div>
+
+</header>
+<section class="about" id="about">
+    <div class="about__wrapper">
+        <video  class=" about__video video" id="video" preload  loop>
+            <source id="mp4" src="https://kstarworh.github.io/Keep/img/media/video.mp4" type="video/mp4">
+            <!--<source id="mp4" src="http://petepearl.ru/unident/dist/images/uni.mp4" type="video/mp4">-->
+        </video>
+        <!--<video id="video" poster="img/video-poster.png" preload="metadata"  class="about__video"  src="https://kstarworh.github.io/Keep/img/media/video.mp4" ></video>-->
+    </div>
+  <div class="about__box">
+      <div class="content-row about__buttons">
+          <button id="about-button-1" data-value="0" class="about__switches about__switches--activ">Опыт</button>
+          <button id="about-button-2" data-value="1" class="about__switches">Подход</button>
+          <button id="about-button-3" data-value="2" class="about__switches">Таргет</button>
+          <button id="about-button-4" data-value="3" class="about__switches">Результат</button>
+          <button id="about-button-5" data-value="4" class="about__switches">Жизнь</button>
+      </div>
+      <div class="about__line">
+          <div class="about__line--activ"></div>
+      </div>
+  </div>
+</section>
+<section class="level" id="level">
+    <div class="content-container">
+        <h2 class="level__title">Курсы и уровни</h2>
+        <div class="content-row level__content">
+            <ul class="level__degree">
+                <li class="level__item">С Нуля (Beginner)</li>
+                <li class="level__item">Начальный (Elementary)</li>
+                <li class="level__item level__item--active">Средний (Pre-Intermediate)</li>
+                <li class="level__item">Хороший (Intermediate)</li>
+                <li class="level__item">Высокий (Upper-Intermediate)</li>
+                <li class="level__item">Продвинутый (Advanced)</li>
+            </ul>
+            <div class="level__info">
+                <div class="level__tabs ">
+                    <h4 class="level__subtitle">С Нуля (Beginner)</h4>
+                    <p class="level__text">На среднем уровне обучения английскому языку формируется навык
+                        разговорной речи применительно к бытовым и нестандартным ситуациям,
+                        к примеру, "Защита окружающей среды", а также навык восприятия стандартной
+                        англоязычной речи на слух в среднем и естественном темпе.</p>
+                    <p class="level__text level__text--inner">Формируется навык несложной письменной речи. Уровень
+                        предполагает
+                        формирование навыка употребления наиболее распространённых слов
+                        и выражений, относящихся к бытовым ситуациям.</p>
+                    <div class="level__box">
+                        <ul class="level__list">
+                            <li class="level__element">Формируется навык несложной письменной речи</li>
+                            <li class="level__element">По результатам тестирования Вам будет предложена группа Ваших
+                                знаний
+                            </li>
+                            <li class="level__element">Оплата первых двух занятий поурочная</li>
+                        </ul>
+                        <a class="level__button" href="#">Пройти бесплатное тестирование</a>
+                    </div>
+                </div>
+                <div class="level__tabs ">
+                    <h4 class="level__subtitle">Начальный (Elementary)</h4>
+                    <p class="level__text">На среднем уровне обучения английскому языку формируется навык
+                        разговорной речи применительно к бытовым и нестандартным ситуациям,
+                        к примеру, "Защита окружающей среды", а также навык восприятия стандартной
+                        англоязычной речи на слух в среднем и естественном темпе.</p>
+                    <p class="level__text level__text--inner">Формируется навык несложной письменной речи. Уровень
+                        предполагает
+                        формирование навыка употребления наиболее распространённых слов
+                        и выражений, относящихся к бытовым ситуациям.</p>
+                    <div class="level__box">
+                        <ul class="level__list">
+                            <li class="level__element">Формируется навык несложной письменной речи</li>
+                            <li class="level__element">По результатам тестирования Вам будет предложена группа Ваших
+                                знаний
+                            </li>
+                            <li class="level__element">Оплата первых двух занятий поурочная</li>
+                        </ul>
+                        <a class="level__button" href="#">Пройти бесплатное тестирование</a>
+                    </div>
+                </div>
+                <div class="level__tabs level__tabs--active">
+                    <h4 class="level__subtitle">Средний (Pre-Intermediate)</h4>
+                    <p class="level__text">На среднем уровне обучения английскому языку формируется навык
+                        разговорной речи применительно к бытовым и нестандартным ситуациям,
+                        к примеру, "Защита окружающей среды", а также навык восприятия стандартной
+                        англоязычной речи на слух в среднем и естественном темпе.</p>
+                    <p class="level__text level__text--inner">Формируется навык несложной письменной речи. Уровень
+                        предполагает
+                        формирование навыка употребления наиболее распространённых слов
+                        и выражений, относящихся к бытовым ситуациям.</p>
+                    <div class="level__box">
+                        <ul class="level__list">
+                            <li class="level__element">Формируется навык несложной письменной речи</li>
+                            <li class="level__element">По результатам тестирования Вам будет предложена группа Ваших
+                                знаний
+                            </li>
+                            <li class="level__element">Оплата первых двух занятий поурочная</li>
+                        </ul>
+                        <a class="level__button" href="#">Пройти бесплатное тестирование</a>
+                    </div>
+                </div>
+                <div class="level__tabs ">
+                    <h4 class="level__subtitle">Хороший (Intermediate)</h4>
+                    <p class="level__text">На среднем уровне обучения английскому языку формируется навык
+                        разговорной речи применительно к бытовым и нестандартным ситуациям,
+                        к примеру, "Защита окружающей среды", а также навык восприятия стандартной
+                        англоязычной речи на слух в среднем и естественном темпе.</p>
+                    <p class="level__text level__text--inner">Формируется навык несложной письменной речи. Уровень
+                        предполагает
+                        формирование навыка употребления наиболее распространённых слов
+                        и выражений, относящихся к бытовым ситуациям.</p>
+                    <div class="level__box">
+                        <ul class="level__list">
+                            <li class="level__element">Формируется навык несложной письменной речи</li>
+                            <li class="level__element">По результатам тестирования Вам будет предложена группа Ваших
+                                знаний
+                            </li>
+                            <li class="level__element">Оплата первых двух занятий поурочная</li>
+                        </ul>
+                        <a class="level__button" href="#">Пройти бесплатное тестирование</a>
+                    </div>
+                </div>
+                <div class="level__tabs ">
+                    <h4 class="level__subtitle">Высокий (Upper-Intermediate)</h4>
+                    <p class="level__text">На среднем уровне обучения английскому языку формируется навык
+                        разговорной речи применительно к бытовым и нестандартным ситуациям,
+                        к примеру, "Защита окружающей среды", а также навык восприятия стандартной
+                        англоязычной речи на слух в среднем и естественном темпе.</p>
+                    <p class="level__text level__text--inner">Формируется навык несложной письменной речи. Уровень
+                        предполагает
+                        формирование навыка употребления наиболее распространённых слов
+                        и выражений, относящихся к бытовым ситуациям.</p>
+                    <div class="level__box">
+                        <ul class="level__list">
+                            <li class="level__element">Формируется навык несложной письменной речи</li>
+                            <li class="level__element">По результатам тестирования Вам будет предложена группа Ваших
+                                знаний
+                            </li>
+                            <li class="level__element">Оплата первых двух занятий поурочная</li>
+                        </ul>
+                        <a class="level__button" href="#">Пройти бесплатное тестирование</a>
+                    </div>
+                </div>
+                <div class="level__tabs ">
+                    <h4 class="level__subtitle">Продвинутый (Advanced)</h4>
+                    <p class="level__text">На среднем уровне обучения английскому языку формируется навык
+                        разговорной речи применительно к бытовым и нестандартным ситуациям,
+                        к примеру, "Защита окружающей среды", а также навык восприятия стандартной
+                        англоязычной речи на слух в среднем и естественном темпе.</p>
+                    <p class="level__text level__text--inner">Формируется навык несложной письменной речи. Уровень
+                        предполагает
+                        формирование навыка употребления наиболее распространённых слов
+                        и выражений, относящихся к бытовым ситуациям.</p>
+                    <div class="level__box">
+                        <ul class="level__list">
+                            <li class="level__element">Формируется навык несложной письменной речи</li>
+                            <li class="level__element">По результатам тестирования Вам будет предложена группа Ваших
+                                знаний
+                            </li>
+                            <li class="level__element">Оплата первых двух занятий поурочная</li>
+                        </ul>
+                        <a class="level__button" href="#">Пройти бесплатное тестирование</a>
+                    </div>
+                </div>
+            </div>
+            <div class="level__vector">
+                <img src="img/vektor6.svg" alt="vektor" class="content-image">
+            </div>
+            <div class="level__vector--two">
+                <img src="img/vektor7.svg" alt="vektor" class="content-image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="targeting" id="targeting">
+    <div class="targeting__vector">
+        <img src="img/vektor8.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="content-container">
+        <div class="targeting__content">
+            <h2 class="targeting__title">Таргетируйте знания
+                ребенка четко<span class="targeting__title--color"> в цель</span></h2>
+            <p class="targeting__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo. Proin sodales pulvinar
+                sic tempor.</p>
+
+        </div>
+        <div class="targeting__wrap">
+            <input class="targeting__line" type="range" id="range" min="1" max="12" value="1" step="1"/>
+        </div>
+        <div id="slider" class="targeting__slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">первом месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">втором месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">третьем месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">четвертом месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">пятом месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">шестом месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">седьмом месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">третьем месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">третьем месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">третьем месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">третьем месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="targeting__box content-row">
+                        <h4 class="targeting__subtitle"> На <span
+                                class="targeting__subtitle--color">третьем месяце</span>
+                            обучения
+
+                            ваш ребенок сможет заказать
+
+                            себе еду в ресторане</h4>
+                        <p class="targeting__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                            accumsan et viverra justo commodo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+</section>
+<section class="flying">
+    <div class="flying__vector">
+        <img src="img/vektor9.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="flying__vector--two">
+        <img src="img/vektor10.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="flying__vector--three">
+        <img src="img/vektor11.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="flying__vector--fo">
+        <img src="img/vektor12.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="content-container">
+        <div class="content-row flying__content">
+            <div class="content-row flying__info">
+                <img src="img/airplane.svg" alt="airplane" class="flying__image">
+                <div>
+                    <h3 class="flying__title">Мы летим в Англию</h3>
+                    <span class="flying__text flying__text--inner">21 Июля - 30 Июля</span>
+                    <span class="flying__text">Нас уже 18 человек</span>
+                </div>
+            </div>
+            <a href="#" class="flying__play content-row">
+                <img src="img/play.svg" alt="play" class="flying__icon">
+                <span>
+                Посмотреть
+                как это было
+                    </span>
+            </a>
+            <a href="#" class="flying__button">
+                Подробнее
+            </a>
+        </div>
+    </div>
+</section>
+<section class="branch" id="branch">
+    <div class="content-container">
+        <div class="content-row branch__wrap">
+            <div class="branch__content">
+                <h2 class="branch__title">Наши филиалы</h2>
+                <div class="content-row branch__info">
+                    <div class="branch__element">
+                        <span class="branch__metro"><img src="img/metro_red.png" alt="Metro"
+                                                         class="header__icon">Тульская</span>
+                        <span class="branch__address">г. Москва<br>
+2-я Рощинская, 1а</span>
+                        <a class="branch__mail" href="#">tulskaya@keeptouch.ru</a>
+                    </div>
+                    <div class="branch__element">
+                        <span class="branch__metro"><img src="img/metro_red.png" alt="Metro"
+                                                         class="header__icon">Митино</span>
+                        <span class="branch__address">г. Москва<br>
+ул. Митинская, д. 45, к.1</span>
+                        <a class="branch__mail" href="#">mitino@keeptouch.ru</a>
+                    </div>
+                </div>
+                <ul class="branch__accordion">
+                    <li class="branch__item">
+                        <h3 class="branch__name ">Стоимость обучения</h3>
+                        <p class="branch__text">Разрабатываем продуманные и клёвые e-commerce для тех, кто рассчитывает
+                            на действительно серьезный поток клиентов, и тех, кто устал от вечных
+                            заплаток на старом сайте</p>
+                    </li>
+                    <li class="branch__item">
+                        <h3 class="branch__name ">Как проходит обучение</h3>
+                        <p class="branch__text">Разрабатываем продуманные и клёвые e-commerce для тех, кто рассчитывает
+                            на действительно серьезный поток клиентов, и тех, кто устал от вечных
+                            заплаток на старом сайте</p>
+                    </li>
+                    <li class="branch__item">
+                        <h3 class="branch__name ">Бесплатный вводный урок</h3>
+                        <p class="branch__text">Разрабатываем продуманные и клёвые e-commerce для тех, кто рассчитывает
+                            на действительно серьезный поток клиентов, и тех, кто устал от вечных
+                            заплаток на старом сайте</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="branch__map" id="map">
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="contact__vector">
+        <img src="img/vektor13.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="contact__vector--two">
+        <img src="img/vektor14.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="contact__vector--three">
+        <img src="img/vektor15.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="contact__vector--fo">
+        <img src="img/vektor16.svg" alt="vektor" class="content-image">
+    </div>
+    <div class="content-container">
+        <div class="content-row contact__content">
+            <h2 class="contact__title">
+                Английский язык для детей
+                8 занятий от 4 500 руб.
+            </h2>
+            <form class="contact__form">
+                <div class="content-row header__enter contact__enter">
+                    <input type="text" placeholder="Ваше имя" class="header__input contact__color contact__input">
+                    <div class="content-column header__enter--tel">
+                        <label class="header__label contact__color">Телефон</label>
+                        <input type="tel" placeholder="8 908 684"
+                               class="header__input header__input--tel contact__color contact__input">
+                    </div>
+                </div>
+                <a class="header__button contact__color contact__button" href="#">Бесплатный первый урок</a>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="life" id="life">
+    <div class="content-container">
+        <h2 class="life__title">Life</h2>
+        <div class="life__content content-row">
+
+
+            <div class="life__gallery swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="img/image.jpg" data-fancybox="gallery" data-caption="Caption #1" class="life__image">
+                            <img src="img/image.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/image2.jpg" data-fancybox="gallery" data-caption="Caption #1" class="life__image">
+                            <img src="img/image2.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/image3.jpg" data-fancybox="gallery" data-caption="Caption #2" class="life__image">
+                            <img src="img/image3.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/image.jpg" data-fancybox="gallery" data-caption="Caption #1"
+                           class="life__image">
+                            <img src="img/image.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/image2.jpg" data-fancybox="gallery" data-caption="Caption #1"
+                           class="life__image life__image--hidden life__inner">
+                            <img src="img/image2.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/image3.jpg" data-fancybox="gallery" data-caption="Caption #2"
+                           class="life__image">
+                            <img src="img/image3.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="img/image2.jpg" data-fancybox="gallery" data-caption="Caption #1"
+                           class="life__image">
+                            <img src="img/image2.jpg" alt="gallery" class="content-image"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="life__link content-row">
+                Смотреть еще
+            </a>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="content-container">
+        <div class="content-row footer__content">
+            <a href="#header" class="footer__logo"><h4><img src="img/footer-logo.svg" alt="Logo" class="content-image">
+            </h4>
+            </a>
+            <div class="footer__element">
+                <span class="footer__name">Фактический адрес</span>
+                <span class="footer__info">2-я Рощинская улица, 1А<br>
+Москва, Россия, 115191</span>
+                <a href="#branch" class="footer__link">Посмотреть на карте</a>
+            </div>
+            <div class="footer__element">
+                <span class="footer__name">Телефон</span>
+                <a href="#" class="footer__info footer__phone">+7 (495) 233 11 92</a>
+                <span class="footer__schedule">Рады слышать вас с 9:00 до 21:00</span>
+            </div>
+            <div class="footer__element">
+                <span class="footer__name">Напишите нам</span>
+                <a class="footer__link" href="#">info@omniagency.ru</a>
+            </div>
+            <ul class="footer__element">
+                <li class="footer__name">Заходите в гости</li>
+                <li>
+                    <a href="#" class="footer__info footer__item">Вконтакте</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__info footer__item">Facebook</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__info footer__item">Instagram</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-row footer__wrap">
+            <span class="footer__subname">© 2019 Keep in touch</span>
+            <a class="footer__link" href="#">Политика конфиденциальности</a>
+            <a class="footer__link" href="#">Подписка на новости</a>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=&lang=ru_RU"></script>
+<script src="js/main.js"></script>
+<script src="js/video.js"></script>
+</body>
+</html>
